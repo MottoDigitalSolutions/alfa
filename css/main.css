@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
@@ -1838,9 +1838,6 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   padding: 15px 0;
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -2083,7 +2080,6 @@ body {
   right: 0;
   width: 50%;
   height: 90%;
-  background: url(../img/main/banner1-2.png) no-repeat bottom right/contain;
   z-index: 2;
 }
 
@@ -2548,7 +2544,7 @@ footer {
 
 footer .copy-right-text {
   color: #fff;
-  font-size:0.5em;
+  font-size:0.9em;
 }
 
 @media (max-width: 991px) {
@@ -2749,4 +2745,35 @@ text-decoration:underline;
 #accordion .panel .panel-title a[aria-expanded="true"] span:before {
     -webkit-transform: translate(-50%) rotate(0deg);
     transform: translate(-50%) rotate(0deg)
+}
+
+.videoPopUp i{
+  position: absolute;
+  font-size: 66px;
+  color: #fff;
+  left: 47%;
+  top: 40%;
+  cursor: pointer;
+
+}
+.videoPopUp img{
+  width: 100%;
+  cursor: pointer;
+  cursor: pointer;
+}
+.textoPopUp{
+  background-color: #f9f9ff;
+  margin-left: -15px;
+  padding: 20px;
+}
+.textoPopUp h3{
+  text-align: left;
+  color: #222222;
+  margin-top: 60px;
+  margin-left: 10%;
+}
+.textoPopUp img{
+  width: 80%;
+  margin-top: 60px;
+  margin-left: 10%;
 }
